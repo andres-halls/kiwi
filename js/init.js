@@ -5,6 +5,7 @@ function c(obj) {
 var pluginConf = {
     lang: 'en'
 };
+
 var swPlugin = new SignWisePlugin(pluginConf);
 
 var homeVM = new homeViewModel();
