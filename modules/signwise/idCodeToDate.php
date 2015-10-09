@@ -40,6 +40,7 @@ class personalcode{
 
     private function ageInYears($splitter = '-'){
         list($day, $month, $year) = explode($splitter, $this->birthdate);
+        date_default_timezone_set("UTC");
         $year_diff  = date("Y") - $year;
         $month_diff = date("m") - $month;
         $day_diff   = date("d") - $day;
@@ -56,5 +57,4 @@ class personalcode{
     }
 }
 
-$personalcode = new personalcode(37605030299);
 ?> 
