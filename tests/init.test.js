@@ -9,6 +9,14 @@ describe("init.js tests", function() {
         expect(ko).not.toBeNull();
     });
 
+    it("SignWise plugin configured to use English", function() {
+        expect(pluginConf).toEqual({lang: 'en'});
+    });
+
+    it("SignWise plugin initialized", function() {
+        expect(swPlugin).toBeDefined();
+        expect(swPlugin).not.toBeNull();
+    });
     it("Sammy loaded", function() {
         expect(Sammy).toBeDefined();
         expect(Sammy).not.toBeNull();
@@ -18,16 +26,6 @@ describe("init.js tests", function() {
         expect(nav).toBeDefined();
         expect(nav).not.toBeNull();
     });
-
-    it("SignWise plugin configured to use English", function() {
-        expect(pluginConf).toEqual({lang: 'en'});
-    });
-
-    it("SignWise plugin initialized", function() {
-        expect(swPlugin).toBeDefined();
-        expect(swPlugin).not.toBeNull();
-    });
-
     it("Home ViewModel initialized", function() {
         expect(homeVM).toBeDefined();
         expect(homeVM).not.toBeNull();

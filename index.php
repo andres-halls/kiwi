@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ERES</title>
+    <title>Nikkel</title>
 
     <!-- jQuery -->
     <script type="text/javascript" src="lib/jquery/jquery-2.1.4.min.js"></script>

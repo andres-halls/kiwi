@@ -18,14 +18,14 @@
         <div class="heroContainer">
             <img src="assets/images/LandingPage.png" class="landingpage">
             <div class="companyInfo">
-                <h2 class="companyName"> eResNetwork </h2>
+                <h2 class="companyName"> Network </h2>
 
             </div>
-            <h3 class="companyHeader"> World's safest community for digital citizens</h3>
+            <h3 class="companyHeader"</h3>
             <div class="heroContainer">
                 <div class="catchPhrase">
-                    <h2 class="Slogan"> Stay safe with us </h2>
-                    <h2 class="Slogan2"> Sign up with an ID card </h2>
+                    <h2 class="Slogan"></h2>
+                    <h2 class="Slogan2"> Sign in with ID card</h2>
                     <h3 class="companyHeader" style="margin-top: 20px;">
                         Powered by SignWise. Get the
                         <a href="https://www.signwise.me/p/about/plugin" target="_blank" style="color: red;">plugin</a>
