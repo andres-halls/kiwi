@@ -1,0 +1,220 @@
+/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-weight: 200;
+  font-style: normal;
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Thin.ttf");
+}
+@font-face {
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-weight: 200;
+  font-style: normal;
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Thin.ttf");
+}
+@font-face {
+  font-weight: 200;
+  font-style: normal;
+  font-family: "Montserrat";
+  src: url("fonts/Roboto-Light.otf");
+}
+@font-face {
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Montserrat";
+  src: url("fonts/Roboto-Regular.otf");
+}
+@font-face {
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Montserrat";
+  src: url("fonts/Roboto-Bold.otf");
+}
+/* line 4, ../sass/content.scss */
+html {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 10, ../sass/content.scss */
+.navbar-row {
+  padding-bottom: 5px;
+}
+
+.providerPic{
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.contentHeader{
+  display: inline-block;
+}
+
+#garagePic{
+    background: url("../assets/providers/garage48.png");
+   -webkit-background-size: contain; 
+   -moz-background-size: contain; 
+   -o-background-size: contain; 
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+#estPic{
+    background: url("../assets/providers/est.png");
+   -webkit-background-size: contain; 
+   -moz-background-size: contain; 
+   -o-background-size: contain; 
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#fleepPic{
+    background: url("../assets/providers/fleep.png");
+   -webkit-background-size: contain; 
+   -moz-background-size: contain; 
+   -o-background-size: contain; 
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.jumbotron a{
+  text-decoration: none;
+}
+
+.hideButtton{
+  width: 40px;
+  height: 40px;
+
+    background: url("../assets/icons/down.png");
+   -webkit-background-size: contain; 
+   -moz-background-size: contain; 
+   -o-background-size: contain; 
+  background-size: contain;
+  background-repeat: no-repeat;
+
+      display: inline-block;
+    float: right;
+    cursor: pointer;
+    opacity: 0.5;
+}
+#profileButton{
+      width: 100px;
+    /* padding: 0; */
+    padding-top: 11px;
+    height: 43px;
+    margin-left: 34px;
+    background-color: #5FB471;
+    border-radius: 12%;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+
+    -webkit-transition: 0.4s ease-in-out border-radius;
+    -moz-transition: 0.4s ease-in-out border-radius;
+    -o-transition: 0.4s ease-in-out border-radius;
+    transition: 0.4s ease-in-out border-radius;
+}
+#profileButton:hover{
+  border-radius: 6%;
+}
+
+#searchContainer{
+    margin: 0 auto;
+    height: 43px;
+    float: none;
+}
+#searchInputGroup{
+  top: 7px;
+}
+#goButton{
+    background-color: #5FB471;
+    color: white;
+}
+
+.providerContainer {
+    margin-bottom: 20px;
+}
+
+.contentDesc {
+    margin-bottom: 10px;
+}
