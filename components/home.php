@@ -41,3 +41,12 @@
         <div class="overlay"></div>
     </div>
 </div>
+
+<script type="text/html" id="chat_message">
+    <div class="message-box" data-bind="css: { 'pull-right': id != homeVM.user_data()['id'] }">
+        <div class="message" data-bind="css: { 'other': id != homeVM.user_data()['id'] }">
+            <span data-bind="text: name"></span>
+            <p data-bind="text: message"></p>
+        </div>
+    </div>
+</script>

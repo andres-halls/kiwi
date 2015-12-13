@@ -19,6 +19,7 @@
 
     <!-- Knockout -->
     <script type="text/javascript" src="lib/knockout-3.3.0.js"></script>
+    <script type="text/javascript" src="js/knockout-custom.js"></script>
 
     <!-- Sammy -->
     <script type="text/javascript" src="lib/sammy-0.7.6.min.js"></script>
