@@ -9,10 +9,10 @@ class personalcode{
     public function __construct($personalcode){
         // siin oleks mõistlik isikukood valideerida
         $this->personalcode = $personalcode;
-        $this->doMagicWithPersonalcode();
+        $this->parseIdCode();
     }
 
-    public function doMagicWithPersonalcode(){
+    public function parseIdCode(){
         $this->birthdate();
         $this->ageInYears();
 

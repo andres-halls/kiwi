@@ -21,7 +21,7 @@ if (isset($_POST["signature"])) {
         $idCode = $_SESSION['user']['identificationCode'];
         $country = $_SESSION['user']['organization'];
         $idCodeToDate = new personalcode($idCode);
-        $dob = $idCodeToDate->doMagicWithPersonalcode()['DateOfBirth'];
+        $dob = $idCodeToDate->parseIdCode()['DateOfBirth'];
 
         $db = mysql_connect('localhost', 'root', '') or die( mysql_error() );
         mysql_select_db( 'netw_data', $db ) or die( mysql_error() );
@@ -32,7 +32,9 @@ if (isset($_POST["signature"])) {
             $user_ID = mysql_fetch_assoc($res)['id'];
         }
         else {
-            $q = 'INSERT INTO `users`(`id_code`, `name`, `dateofbirth`, `organization`) VALUES ("'.$idCode.'","'.$_SESSION['user']['firstName'].' '.$_SESSION['user']['lastName'].'","'.$dob.'","'.$country.'")';
+            $q = 'INSERT INTO `users`(`id_code`, `name`, `dateofbirth`, `organization`)'.
+                 'VALUES ("'.$idCode.'","'.$_SESSION['user']['firstName'].' '.$_SESSION['user']['lastName'].'","'.$dob.'","'.$country.'")';
+
             $res = mysql_query($q);
             $user_ID = mysql_insert_id();
         }

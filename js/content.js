@@ -1,7 +1,3 @@
-/**
- * Created by Andres on 13.09.2015.
- */
-
 function contentViewModel() {
     var self = this;
     self.view = 'content';

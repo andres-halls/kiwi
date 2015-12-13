@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Karl-Martin
- * Date: 12/09/15
- * Time: 14:52
- */
 
 error_reporting(0);
 
